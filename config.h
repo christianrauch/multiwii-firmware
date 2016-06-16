@@ -64,7 +64,8 @@
 
   /****************************    Motor maxthrottle    *******************************/
     /* this is the maximum value for the ESCs at full power, this value can be increased up to 2000 */
-    #define MAXTHROTTLE 1850
+    //#define MAXTHROTTLE 1850
+    #define MAXTHROTTLE 2000
 
   /****************************    Mincommand          *******************************/
     /* this is the value for the ESCs when they are not armed
@@ -422,7 +423,7 @@ At this moment you can use this function only with WinGUI 2.3 release. MultiWiiC
       /* possibility to use PIN8 or PIN12 as the AUX2 RC input (only one, not both)
          it deactivates in this case the POWER PIN (pin 12) or the BUZZER PIN (pin 8) */
       //#define RCAUXPIN8
-      //#define RCAUXPIN12
+      #define RCAUXPIN12
 
 
   /**************************************************************************************/
