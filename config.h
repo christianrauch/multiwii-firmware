@@ -892,7 +892,7 @@ Also note, that maqgnetic declination changes with time, so recheck your value e
        with R1=33k and R2=51k
        vbat = [0;1023]*16/VBATSCALE
        must be associated with #define BUZZER ! */
-    //#define VBAT              // uncomment this line to activate the vbat code
+    #define VBAT              // uncomment this line to activate the vbat code
     #define VBATSCALE       131 // (*) (**) change this value if readed Battery voltage is different than real voltage
     #define VBATNOMINAL     126 // 12,6V full battery nominal voltage - only used for lcd.telemetry
     #define VBATLEVEL_WARN1 107 // (*) (**) 10,7V
