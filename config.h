@@ -1131,7 +1131,7 @@ Also note, that maqgnetic declination changes with time, so recheck your value e
     //#define LCD_TELEMETRY_DEBUG 6  //This form stays on the screen specified.
 
     /* Enable string transmissions from copter to GUI */
-    //#define DEBUGMSG
+    #define DEBUGMSG
 
 
   /********************************************************************/
